@@ -1,3 +1,6 @@
+# git add .
+# git commit -m "LO Q SE HIZO EXPLICACION"
+# git push
 from datetime import datetime
 import os
 import json
@@ -85,6 +88,13 @@ class Menu:
                 if opcion == indice:
                     print(f"===== DETALLES {dicc['fecha']} '{dicc['titulo']}' =====\nTitulo:         {dicc['titulo']}\nContenido:      {dicc['contenido']}\nFecha:          {dicc['fecha']}\nHora:           {dicc['hora']}\nNombre del dia: {dicc['nombre del dia']}\nEtiqueta:       {dicc['etiqueta']}\nImportancia:    {dicc['importancia']}\nNotas Extras:   {dicc['notas extras']}\nEstado del dia: {dicc['estado del dia']}")
     #def ver_grafica(self):
+    def eliminar_exto(self):
+        indice_dado = int(input("Ingrese el indice a eliminar:\n          > > >  "))
+        for indice, dicc in enumerate(self.datos, start=1):
+            if indice == indice_dado:
+                del self.datos[indice-1]
+                print("SE ELIMINO CORRECTAMENTE...")
+                escribir_arch(self.arch_json, self.datos)
 def leer_archivo(ruta):
     with open(ruta, "r") as r:
         datos = json.load(r)
@@ -103,7 +113,7 @@ ruta = "diario/diario.json"
 main1 = Menu(ruta)
 while True:
     print("===== MENU =====")
-    opcion_elegida = int(input("1. Ver contenido General\n2. Ver Contenido Detallado\n3. Escribir Contenido\n4. Salir\n            > > >  "))
+    opcion_elegida = int(input("1. Ver contenido General\n2. Ver Contenido Detallado\n3. Escribir Contenido\n4. Eiminar Texto\n5. Salir\n            > > >  "))
     if opcion_elegida ==1:
         main1.ver_contenido_general()
     elif opcion_elegida == 2:
@@ -112,6 +122,9 @@ while True:
     elif opcion_elegida == 3:
         main1.escribir()
     elif opcion_elegida == 4:
+        main1.ver_contenido_general()
+        main1.eliminar_exto()
+    elif opcion_elegida == 5:
         break
     else: print("Ingrese solo numeros del 1 al 4...")
 # PRUEBA SI SAE EN GITHUUB   HOLAAAAAAAAAAA
