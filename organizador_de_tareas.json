@@ -1,0 +1,30 @@
+[
+    {
+        "nombre": "mate",
+        "nivel de importancia": 6,
+        "dia de plazo": 5,
+        "mes del plazo": 32,
+        "completado": false
+    },
+    {
+        "nombre": "cocinar",
+        "nivel de importancia": 6,
+        "dia de plazo": 5,
+        "mes del plazo": 5,
+        "completado": true
+    },
+    {
+        "nombre": "escuchar",
+        "nivel de importancia": 67,
+        "dia de plazo": 6,
+        "mes del plazo": 5,
+        "completado": false
+    },
+    {
+        "nombre": "ver tele",
+        "nivel de importancia": 1,
+        "dia de plazo": 6,
+        "mes del plazo": 5,
+        "completado": false
+    }
+]

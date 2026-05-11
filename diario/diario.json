@@ -1,0 +1,26 @@
+[
+    {
+        "titulo": "Reprobe el cba",
+        "contenido": "Hoy me entere que reprobe el cba on 78",
+        "fecha": "7/5/2026",
+        "hora": "23:39/16",
+        "1 al 10 estudios": 1.0,
+        "estado del dia": "Muy mal",
+        "etiqueta": "Social",
+        "nombre del dia": "Thursday",
+        "importancia": "Demasiado Importante",
+        "notas extras": "1 hora rpogramando L e dire a mi papa manana y ya le die a mi tio si me deja seguir en el cba me voy a rajar, vreo q lo hago mas que todo por mi amigos de ir al cba para quedarme"
+    },
+    {
+        "titulo": "Me perdi 2 dias",
+        "contenido": "Estos dos dias me pelie con mi mama muy feo hasta el punto q ella me pego ahora estoy de vuelta pero en mi cuarto recien bajare a ver como esta la cosa",
+        "nombre del dia": "Sunday",
+        "fecha": "10/5/2026",
+        "hora": "19:22:44",
+        "1 al 10 estudios": 5.0,
+        "estado del dia": "Regular",
+        "etiqueta": "Social",
+        "importancia": "Demasiado Importante",
+        "notas extras": "Cando estaba con mi papa me vio programar y mdio se sorprendio y m dijo q me dara una laptop"
+    }
+]
