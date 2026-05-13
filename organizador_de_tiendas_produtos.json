@@ -1,0 +1,12 @@
+[
+    {
+        "nombre": "Vaquitas",
+        "precio": 12.0,
+        "stock": 1
+    },
+    {
+        "nombre": "Leche",
+        "precio": 12.4,
+        "stock": 0
+    }
+]

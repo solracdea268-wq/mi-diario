@@ -5,7 +5,6 @@
 from datetime import datetime
 import os
 import json
-#import matplotlib.pyplot as plt
 class Menu:
     def __init__(self, archivo_json):
         self.datos = leer_archivo(archivo_json)
